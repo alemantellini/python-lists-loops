@@ -1,3 +1,7 @@
+# EJERCICIO 3 - flip list
 sample_list = [45, 67, 87, 23, 5, 32, 60]
-
 # Your code below
+new_list = []
+for x in range(len(sample_list)-1, -1, -1):
+    new_list.append(sample_list[x])
+print(new_list)
